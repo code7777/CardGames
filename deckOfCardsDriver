@@ -1,0 +1,16 @@
+
+import java.util.*;
+//import deckOfCards.java;
+public class deckOfCardsDriver
+{
+   public static void main(String[] args)
+    { 
+     Card jSpade = new Card();
+     jSpade.setRank(Card.Rank.JACK);
+     jSpade.setSuit(Card.Suit.SPADES);
+     System.out.println( jSpade.getRank());
+     System.out.println( jSpade.getSuit());
+   }
+ 
+   
+}
